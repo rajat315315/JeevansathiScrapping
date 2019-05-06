@@ -75,4 +75,4 @@ def convert_to_single_pickle(Data_Directory, _from, _to):
     df.to_pickle(os.path.join(Data_Directory, "data_pickled"))
 
 
-convert_to_single_pickle(Directory, 1, 6000)
+convert_to_single_pickle(Directory, 1, 200)
